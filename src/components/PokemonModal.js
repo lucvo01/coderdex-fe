@@ -46,7 +46,7 @@ export default function PokemonModal({ open, setOpen }) {
       types.push(type2);
     }
     dispatch(addPokemon({ name, id, url: url, types: types }));
-    navigate(`/pokemons/${id}`);
+    // navigate(`/pokemons/${id}`);
   };
 
   const handleClose = () => setOpen(false);
