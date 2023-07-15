@@ -8,7 +8,7 @@ import { alpha, Stack } from "@mui/material";
 import { LoadingButton } from "@mui/lab";
 
 import { addPokemon } from "../features/pokemons/pokemonSlice";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 
 const style = {
   position: "absolute",
@@ -31,7 +31,7 @@ const defaultValues = {
 };
 
 export default function PokemonModal({ open, setOpen }) {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   const methods = useForm(defaultValues);
   const {
     handleSubmit,
